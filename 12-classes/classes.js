@@ -12,7 +12,11 @@ class User{
         this.firstName = fName,
         this.lastName = lName
     }
+    greet() {
+        return `Hey ${this.firstName} ${this.lastName}`;
+    }
 }
 
 const user1 = new User("Elon", "Musk");
 console.log(user1);
+console.log(user1.greet());
