@@ -132,7 +132,6 @@ After completing this course, you will:
 - ✅ Create and use functions
 - ✅ Work with objects and classes
 - ✅ Understand modern ES6+ features
-- ✅ Be ready for advanced JavaScript topics
 
 ## 🤝 Contributing
 
