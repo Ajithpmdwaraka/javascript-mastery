@@ -1,6 +1,6 @@
 # JavaScript Mastery 🚀
 
-A comprehensive JavaScript learning repository designed for developers of all skill levels - from complete beginners to those looking to solidify their JavaScript fundamentals.
+A comprehensive JavaScript learning repository designed for developers of all skill levels - from complete beginners to those looking to solidify their JavaScript fundamentals. It has all the JavaScript Core Concepts
 
 ## 🗂️ Project Structure
 
