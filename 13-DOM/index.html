@@ -4,13 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>DOM manipulation</title>
-        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
     </head>
     <body>
         <div>
-            <p id = "hey">Done</p>
+            <p id="hey">Done</p>
             <input type="radio" name="language" value="English">
             <input type="radio" name="language" value="Malayalam">
             <h1>Hey</h1>
@@ -18,6 +16,11 @@
             <h1>Learners</h1>
             <h1>Everything Alright</h1>
             <h2 class="heading">This is JS</h2>
+        </div>
+        <div>
+            <div id="container">
+                <h2 class="heading">This is JS inside container</h2>
+            </div>
         </div>
         <script>
             let msg = document.getElementById("hey");
@@ -31,6 +34,16 @@
 
             let heading1 = document.getElementsByClassName("heading");
             console.log(heading1);
+
+            let cont = document.getElementById("container");
+            let contheading = cont.getElementsByClassName("heading");
+            console.log(contheading);
+
+            let qry = document.querySelector(".heading");
+            console.log(qry);
+
+            let qry4 = document.querySelectorAll(".heading");
+            console.log(qry4);
         </script>
     </body>
 </html>
