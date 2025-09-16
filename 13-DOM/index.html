@@ -10,7 +10,6 @@
     </head>
     <body>
         <div>
-
             <p id = "hey">Done</p>
             <input type="radio" name="language" value="English">
             <input type="radio" name="language" value="Malayalam">
@@ -18,6 +17,7 @@
             <h1>Js</h1>
             <h1>Learners</h1>
             <h1>Everything Alright</h1>
+            <h2 class="heading">This is JS</h2>
         </div>
         <script>
             let msg = document.getElementById("hey");
@@ -27,7 +27,10 @@
             console.log(btn);
 
             let heading = document.getElementsByTagName("h1");
-            console.log(h1);
+            console.log(heading);
+
+            let heading1 = document.getElementsByClassName("heading");
+            console.log(heading1);
         </script>
     </body>
 </html>
