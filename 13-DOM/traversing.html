@@ -12,7 +12,8 @@
         <div class="title">
             <h1>DOM Traversing</h1>
             <p class="text">Open the console to see the output</p>
-            <p>Apple 1</p>
+
+            <p class="apple">Apple 1</p>
             <p>Apple 2</p>
             <p>Apple 3</p>
             <p>Apple 4</p>
@@ -26,6 +27,10 @@
             console.log(parent.firstElementChild);
             console.log(parent.lastElementChild);
             console.log(parent.childNodes);
+
+            let apple = document.querySelector(".apple");
+            console.log(apple.previousElementSibling);
+            console.log(apple.nextElementSibling);
         </script>
     </body>
 </html>
