@@ -9,12 +9,26 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
+        <ul id="menu">
+            <li>Home</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Project</li>
+        </ul>
+
         <script>
             let div = document.createElement("div");
             div.innerHTML = "<h1>This is created using JS</h1>";
             div.className = "title"
             document.body.appendChild(div);
             console.log(div);
+
+            let menu = document.getElementById("menu");
+            let list = document.createElement("li");
+            list.innerHTML = "Contact"
+            menu.appendChild(list); 
+            
+            console.log(menu.textContent)
         </script>
     </body>
 </html>
