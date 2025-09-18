@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <input type="text" id="username" placeholder="username">
+        <script>
+            let inputBox = document.getElementById("username");
+            console.log(inputBox.attributes);
+
+            console.log(inputBox.getAttribute("type"));
+
+            inputBox.setAttribute("class", "user");
+            console.log(inputBox);
+
+            console.log(inputBox.hasAttribute("class"));
+
+            inputBox.removeAttribute("placeholder");
+            console.log(inputBox);
+        </script>
+    </body>
+</html>
