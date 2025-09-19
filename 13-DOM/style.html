@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <input type="text" id="username" placeholder="username" style="background-color:red; font-size: 20px">
+        <script>
+            let inputBox = document.getElementById("username");
+            console.log(inputBox.style);
+
+            console.log(inputBox.style.backgroundColor);
+            inputBox.style.padding = "20px";
+            console.log(inputBox);
+            //Another way of adding css prop it will over ride the inline css and will not display the previously added bg color or font size
+            inputBox.style.cssText = "width:200px";
+            console.log(inputBox);
+            //We have to concatanate to display the previously added css
+            inputBox.style.cssText += "width:200px";
+            console.log(inputBox);
+        </script>
+    </body>
+</html>
