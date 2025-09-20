@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1 id="title" class="main message">Kerala Blasters</h1>
+        <script>
+            let title = document.getElementById("title");
+            console.log(title.className);
+            //To add new classname 
+            title.className = "main message1"
+
+            //title.className += "main message1"
+            title.classList.add("h1", "h2", "h4")
+            title.classList.remove("h2")
+            title.classList.replace("h4", "h6");
+            title.classList.contains("h1");
+            console.log(title.classList);
+        </script>
+    </body>
+</html>
