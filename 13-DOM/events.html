@@ -13,6 +13,12 @@
             <button type="button" onclick="displymzg()">
                 Click Me
             </button>
+            <button type="button" id="btn">
+                Click here
+            </button>
+            <button type="button" id="btn1">
+                Click here too
+            </button>
         </div>
         <script>
             function displayMsg(){
@@ -22,6 +28,16 @@
             displymzg = () => {
                 console.log("Button Clicked Arrow Function")
             }
+
+            let btn = document.getElementById("btn");
+            btn.onclick = function (){
+                console.log("Button Clickedd");
+            }
+
+            let btn1 = document.getElementById("btn1");
+            btn1.addEventListener(click, function(event){
+                console.log(event.type);
+            })
         </script>
     </body>
 </html>

@@ -17,7 +17,8 @@ javascript-mastery/
 ├── 09-constructor-function/  # Constructor functions
 ├── 10-prototype/            # Prototype chain and inheritance
 ├── 11-destructuring/        # Modern ES6+ destructuring
-└── 12-classes/              # ES6 classes and OOP concepts
+├── 12-classes/              # ES6 classes and OOP concepts
+└── 13-DOM/                  # Document Object Model manipulation
 ```
 
 ## 📖 Learning Path
@@ -62,10 +63,13 @@ Jump to specific topics you want to review or use as reference material. Each fo
 - `while` loops
 - `do-while` loops
 - `break` and `continue` statements
+- Error handling with `try-catch`
+- `throw` and `return` statements
 
 ### **07. Functions**
 - Function declarations and expressions
 - Anonymous functions
+- Arrow functions (ES6)
 - Callback functions
 - Parameters and arguments
 - Default parameters
@@ -100,6 +104,14 @@ Jump to specific topics you want to review or use as reference material. Each fo
 - Inheritance with `extends`
 - Method overriding
 
+### **13. DOM Manipulation**
+- Document Object Model basics
+- Element selection and traversing
+- Content and attribute manipulation
+- Style manipulation (inline styles, className, computed styles)
+- Event handling
+- Dynamic HTML manipulation
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -132,6 +144,8 @@ After completing this course, you will:
 - ✅ Create and use functions
 - ✅ Work with objects and classes
 - ✅ Understand modern ES6+ features
+- ✅ Manipulate DOM elements and handle events
+- ✅ Be ready for advanced JavaScript topics
 
 ## 🤝 Contributing
 
